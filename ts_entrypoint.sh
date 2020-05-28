@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-torchserve --start  --ncs --model-store ${AIP_STORAGE_URI} --models ${AIP_MODEL_NAME}.mar
+torchserve --start  --ncs --model-store model-store --models densenet161.mar
